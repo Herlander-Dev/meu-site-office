@@ -133,7 +133,7 @@ export default function Home() {
           <p className="mt-6 text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
             Evite pagar mensalidades ou assinaturas anuais. Recomendamos o que realmente resolve o seu dia a dia:{' '}
             <span className="text-white font-medium">Office 2024 Professional Plus</span>, instalação segura que inclui o{' '}
-            <span className="text-white font-medium">Word, Excel, PowerPoint, Access e Outlook</span>.
+            <span className="text-white font-medium">Word, Excel, PowerPoint, Access,Outlook e OneNote</span>.
           </p>
 
          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
