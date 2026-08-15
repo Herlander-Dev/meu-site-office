@@ -230,8 +230,8 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-white">gestão e tabelas no excel</h3>
-                    <p className="text-emerald-400 text-xs font-medium">Incluído na Instalação Vitalícia</p>
+                    <h3 className="text-xl font-bold text-white">gestão e tabelas no Excel</h3>
+                    <p className="text-emerald-400 text-xs font-medium">ativação simples e segura.</p>
                   </div>
                 </div>
 
@@ -270,8 +270,8 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-white">Trabalhos e documentos no word</h3>
-                    <p className="text-blue-400 text-xs font-medium">Incluído na Instalação Vitalícia</p>
+                    <h3 className="text-xl font-bold text-white">Trabalhos e documentos no Word</h3>
+                    <p className="text-blue-400 text-xs font-medium">Ativação genuína com chave de lincença válida</p>
                   </div>
                 </div>
 
@@ -362,9 +362,9 @@ export default function Home() {
                 <h3 className="font-bold text-white">instalação oficial do Office 2024 pro plus</h3>
               </div>
               <ul className="space-y-3 text-sm text-slate-300">
-                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Ativação limpa e genuína direto dos servidores da Microsoft</li>
+                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>instalação e ativação com licença válida e segura.</li>
                 <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Totalmente seguro por 60.000kz, pagando um preço único</li>
-                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Computador 100% protegido, sem vírus ou ficheiros modificados.</li>
+                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Sem ficheiros modificados ou ativadores de origem duvidosa</li>
                 <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Suporte técnico garantido e acompanhamento na configuração.</li>
               </ul>
             </div>
