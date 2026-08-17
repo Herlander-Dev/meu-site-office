@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
               </div>
               <span className="text-base font-extrabold tracking-wider text-blue-700 uppercase">
-                OFFICEPRO<span className="text-blue-600"></span>
+                OFFICEPRO<span className="text-blue-500"></span>
               </span>
             </a>
 
@@ -596,7 +596,7 @@ export default function Home() {
                 </div>
               </div>
               <span className="text-base font-extrabold tracking-wider text-blue-700 uppercase">
-                OFFICEPRO<span className="text-blue-600"></span>
+                OFFICEPRO<span className="text-blue-500"></span>
               </span>
             </a>
 
