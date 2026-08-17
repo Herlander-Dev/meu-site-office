@@ -22,6 +22,14 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+  const AOS = require('aos');
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+}, []);
+
   // Simulação do carregamento da GRAP (Substitui o Skeleton)
   useEffect(() => {
     const timer = setTimeout(() => {
