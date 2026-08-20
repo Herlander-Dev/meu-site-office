@@ -309,7 +309,7 @@ export default function Home() {
               </p>
 
               <h3 className="text-4xl sm:text-5xl font-black text-white tracking-tight mt-2 mb-1">
-                60.000 Kz
+                Kz 60.000,00
               </h3>
 
               <p className="text-slate-400 text-sm mb-6">
@@ -508,7 +508,7 @@ export default function Home() {
             <span className="text-xs font-mono text-emerald-400 tracking-widest uppercase">Dúvidas</span>
             <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gradient">
               Antes de decidir, leia isto
-            </h2>
+            </h2>«
           </div>
 
           <div className="space-y-3">
