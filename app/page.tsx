@@ -213,7 +213,7 @@ export default function Home() {
               Tudo detalhado para melhor compreensão.
             </h2>
             <p className="mt-4 text-slate-400 max-w-xl mx-auto">
-              Aqui encontras tudo que precisas saber sobre esta versão
+              Aqui encontras algumas informações sobre esta versão
             </p>
           </div>
 
