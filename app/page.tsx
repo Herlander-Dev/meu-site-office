@@ -173,7 +173,7 @@ export default function Home() {
           </div>
 
           <p className="mt-5 text-xs text-slate-500 font-mono">
-            Sem promessas impossíveis. Sem licença vitalícia que desliga sozinha. Só software que continua a abrir amanhã.
+            Sem promessas impossíveis. Sem licenças falhadas. Apenas software funcional, estável e continuamente disponível.
           </p>
         </div>
       </section>
@@ -247,13 +247,13 @@ export default function Home() {
                 </div>
 
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Planilhas poderosas para gestão financeira, relatórios dinâmicos e gráficos impressionantes com novos recursos e fórmulas avançadas.
+                  Tenha ao seu dispor a versão completa do Excel para criar as suas próprias planilhas, geir o seu negócio e produzir relatórios profissionais com total liberdade.
                 </p>
 
                 <ul className="space-y-2 text-sm text-slate-300">
-                  <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Controlo de Gastos e Orçamentos</li>
-                  <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Cálculos e Somas Automáticas</li>
-                  <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Gráficos Fáceis para Apresentações</li>
+                  <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Crie e controle os seus orçamentos e despesas</li>
+                  <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span>Automatize relatórios com fórmulas e cálculos avançados</li>
+                  <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Gere gráficos impressionantes para as suas apresentações</li>
                 </ul>
               </div>
             </div>
