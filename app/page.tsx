@@ -287,13 +287,13 @@ export default function Home() {
                 </div>
 
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Criação e edição de textos, relatórios e documentos com formatação avançada e integração para exportação limpa em PDF.
+                  Tenha ao seu dispor a versão completa do Word para redigir os seus próprios documentos, formatar trabalhos profissionais e criar conteúdos com total autonomia.
                 </p>
 
                 <ul className="space-y-2 text-sm text-slate-300">
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Criação de currículos e Cartas</li>
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Corretor de Português automático</li>
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Armazenamento e conversão para PDF</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Crie e edite relatórios, cartas, contratos e trabalhos académicos</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Formate textos com estilos profissionais, tabelas e sumários automáticos</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span>Exporte documentos prontos a imprimir ou em formato PDF com facilidade</li>
                 </ul>
               </div>
             </div>
@@ -392,7 +392,7 @@ export default function Home() {
               Tudo o que precisa, prontinho a abrir
             </h2>
             <p className="mt-4 text-slate-400 max-w-xl mx-auto">
-              Documentos, folhas de cálculo, apresentações e mais — configurados no seu computador antes de nos irmos embora.
+              Documentos, folhas de cálculo, apresentações e muito mais — configurados no seu computador antes de nos irmos embora.
             </p>
           </div>
 
