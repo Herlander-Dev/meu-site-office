@@ -247,7 +247,7 @@ export default function Home() {
                 </div>
 
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Tenha ao seu dispor a versão completa do Excel para criar as suas próprias planilhas, geir o seu negócio e produzir relatórios profissionais com total liberdade.
+                  Tenha ao seu dispor a versão completa do Excel para criar as suas próprias planilhas, gerir o seu negócio e produzir relatórios profissionais com total liberdade.
                 </p>
 
                 <ul className="space-y-2 text-sm text-slate-300">
@@ -287,13 +287,13 @@ export default function Home() {
                 </div>
 
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Tenha ao seu dispor a versão completa do Word para redigir os seus próprios documentos, formatar trabalhos profissionais e criar conteúdos com total autonomia.
+                  Tenha ao seu dispor a versão completa do Word para redigir os seus próprios documentos, formatar trabalhos profissionais e criar conteúdos com total autonomia. Tais como:
                 </p>
 
                 <ul className="space-y-2 text-sm text-slate-300">
                   <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Crie e edite relatórios, cartas, contratos e trabalhos académicos</li>
                   <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Formate textos com estilos profissionais, tabelas e sumários automáticos</li>
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span>Exporte documentos prontos a imprimir ou em formato PDF com facilidade</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span>Exporte documentos prontos a imprimir ou em formato PDF</li>
                 </ul>
               </div>
             </div>
