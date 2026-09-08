@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { header } from 'framer-motion/m';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -121,6 +122,39 @@ export default function Home() {
           </button>
 
         </div>
+        {/* ================= MENU DROPDOWN MOBILE ================= */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden max-w-7xl mx-auto mt-2 p-4 bg-slate-900/95 backdrop-blur-2xl border border-white/10 rounded-2xl shadow-2xl flex flex-col gap-3">
+            <a href="#caminhos" onClick={() => setMobileMenuOpen(false)} className="px-4 py-2.5 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800/80 rounded-xl transition-all">
+              Caminhos
+            </a>
+            <a href="#apps" onClick={() => setMobileMenuOpen(false)} className="px-4 py-2.5 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800/80 rounded-xl transition-all">
+              Aplicações
+            </a>
+            <a href="#como-funciona" onClick={() => setMobileMenuOpen(false)} className="px-4 py-2.5 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800/80 rounded-xl transition-all">
+              Como funciona
+            </a>
+            <a href="#garantia" onClick={() => setMobileMenuOpen(false)} className="px-4 py-2.5 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800/80 rounded-xl transition-all">
+              Garantia
+            </a>
+            <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="px-4 py-2.5 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800/80 rounded-xl transition-all">
+              FAQ
+            </a>
+
+            <div className="pt-2 border-t border-white/10 flex flex-col gap-2">
+              <a
+                href="https://wa.me/244922649899"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full text-center px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all shadow-lg shadow-emerald-500/20"
+              >
+                Agendar Instalação
+              </a>
+            </div>
+          </div>
+        )}
+
       </header>
 
       {/* ============ HERO ============ */}
@@ -378,55 +412,55 @@ export default function Home() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-      <section className="relative px-6 py-24 border-t border-slate-800/60 bg-slate-900/20">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <span className="text-xs font-mono text-blue-500 tracking-widest uppercase">IMPORTANTE</span>
-            <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gradient">
-              Por que evitar ativadores piratas e chaves falsas?
-            </h2>
-            <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
-              Existem muitos programas e ficheiros na internet que prometem o Office de graça, mas o custo real pode ser muito mais alto para o seu computador. Veja a diferença:
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-slate-900/80 rounded-2xl p-7 border border-red-500/20">
-              <div className="flex items-center gap-3 mb-5">
-                <span className="w-9 h-9 rounded-lg bg-red-500/10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
-                  </svg>
-                </span>
-                <h3 className="font-bold text-white">Ativadores Piratas / Scripts Na internet</h3>
-              </div>
-              <ul className="space-y-3 text-sm text-slate-400">
-                <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>Podem conter malware, vírus e programas espiões que roubam senhas</li>
-                <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>O Windows update frequentemente bloqueia e desativa o programa.</li>
-                <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>Danificam ficheiros do sistema operativo e deixam o PC lento.</li>
-                <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>Sem garantia de funcionamento nem suporte quando der erro.</li>
-              </ul>
+        <section className="relative px-6 py-24 border-t border-slate-800/60 bg-slate-900/20">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-14">
+              <span className="text-xs font-mono text-blue-500 tracking-widest uppercase">IMPORTANTE</span>
+              <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-gradient">
+                Por que evitar ativadores piratas e chaves falsas?
+              </h2>
+              <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
+                Existem muitos programas e ficheiros na internet que prometem o Office de graça, mas o custo real pode ser muito mais alto para o seu computador. Veja a diferença:
+              </p>
             </div>
 
-            <div className="bg-slate-900/80 rounded-2xl p-7 border border-emerald-500/30">
-              <div className="flex items-center gap-3 mb-5">
-                <span className="w-9 h-9 rounded-lg bg-emerald-500/10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </span>
-                <h3 className="font-bold text-white">Instalação oficial do Office 2024 pro plus</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-slate-900/80 rounded-2xl p-7 border border-red-500/20">
+                <div className="flex items-center gap-3 mb-5">
+                  <span className="w-9 h-9 rounded-lg bg-red-500/10 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                    </svg>
+                  </span>
+                  <h3 className="font-bold text-white">Ativadores Piratas / Scripts Na internet</h3>
+                </div>
+                <ul className="space-y-3 text-sm text-slate-400">
+                  <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>Podem conter malware, vírus e programas espiões que roubam senhas</li>
+                  <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>O Windows update frequentemente bloqueia e desativa o programa.</li>
+                  <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>Danificam ficheiros do sistema operativo e deixam o PC lento.</li>
+                  <li className="flex gap-2.5"><span className="text-red-400 mt-0.5">–</span>Sem garantia de funcionamento nem suporte quando der erro.</li>
+                </ul>
               </div>
-              <ul className="space-y-3 text-sm text-slate-300">
-                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Instalação e ativação com licença válida e segura.</li>
-                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Totalmente seguro por 60.000kz, pagando um preço único</li>
-                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Sem ficheiros modificados ou ativadores de origem duvidosa</li>
-                <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Suporte técnico garantido e acompanhamento na configuração.</li>
-              </ul>
+
+              <div className="bg-slate-900/80 rounded-2xl p-7 border border-emerald-500/30">
+                <div className="flex items-center gap-3 mb-5">
+                  <span className="w-9 h-9 rounded-lg bg-emerald-500/10 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                  <h3 className="font-bold text-white">Instalação oficial do Office 2024 pro plus</h3>
+                </div>
+                <ul className="space-y-3 text-sm text-slate-300">
+                  <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Instalação e ativação com licença válida e segura.</li>
+                  <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Totalmente seguro por 60.000kz, pagando um preço único</li>
+                  <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Sem ficheiros modificados ou ativadores de origem duvidosa</li>
+                  <li className="flex gap-2.5"><span className="text-emerald-400 mt-0.5">✓</span>Suporte técnico garantido e acompanhamento na configuração.</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </motion.section>
 
       {/* ============ APLICAÇÕES ============ */}
