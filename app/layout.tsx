@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "OfficePro - O seu escritório digital",
   description: "Instalação profissional de software e suporte em Angola.",
+  verification: {
+    "google": "qWuGd9A71lGHUg6I1ugnX7VpUFHG7u-MI1yWxxa6ZRM",
+  },
+
 };
 
 export default function RootLayout({
