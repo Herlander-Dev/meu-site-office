@@ -39,6 +39,10 @@ export default function Home() {
 
   return (
     <div className="bg-slate-900/80 text-slate-200 font-sans antialiased selection:bg-emerald-500/30 selection:text-white min-h-screen relative overflow-x-hidden">
+
+    <head>
+      <title>OfficePro - O seu escritório digital</title>
+      </head>
       <div
         className="fixed top-0 left-0 z-[60] h-1 bg-cyan-400"
         style={{ width: `${scrollProgress}%` }}
