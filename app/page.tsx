@@ -359,9 +359,9 @@ export default function Home() {
                 </p>
 
                 <ul className="space-y-2 text-sm text-slate-300">
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Crie e edite relatórios, cartas, contratos e trabalhos académicos</li>
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Formate textos com estilos profissionais, tabelas e sumários automáticos</li>
-                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Exporte documentos prontos a imprimir ou em formato PDF</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Criar e editar</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Formatar textos</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-400">✓</span> Exportar documentos</li>
                 </ul>
               </div>
             </motion.div>
